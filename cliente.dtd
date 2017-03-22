@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT usuario (cliente*)>
+<!ELEMENT cliente (id_usuario, contraseña, dni, nombre, apellido, email+, telefono+, direccion*)>
+
+<!ELEMENT id_usuario (#PCDATA)>
+<!ELEMENT contraseña (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+
+<!ELEMENT direccion (provincia, calle, altura, ciudad)>
+
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT altura (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
